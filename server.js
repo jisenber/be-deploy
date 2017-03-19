@@ -23,7 +23,7 @@ mongoose.Promise = Promise
 mongoose.connect(process.env.MONGODB_URI)
 
 // module constants
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 80
 const app = express()
 
 
